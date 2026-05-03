@@ -1074,175 +1074,276 @@
       }
 
       const symptomCategories = {
-        "General Symptoms": [
+        "General / Constitutional": [
           "fatigue",
-          "headache",
-          "runny nose",
-          "vomiting",
-          "nausea",
-          "high fever",
-          "mild fever",
-          "cough",
-          "chills",
-          "shivering",
-          "sweating",
-          "dehydration",
-          "weight gain",
-          "weight loss",
-          "cold hands and feets",
-          "sunken eyes",
           "malaise",
           "lethargy",
-          "fluid overload",
-          "toxic look (typhos)",
+          "general_weakness",
+          "excessive_drowsiness",
+          "loss_of_consciousness",
+          "coma",
+          "fainting",
+          "dehydration",
+          "night_sweats",
+          "cold_sweats",
+          "sweating",
+          "increased_sweating",
+          "chills",
+          "night_chills",
+          "chills_with_rigor",
+          "shivering",
+          "low_blood_pressure",
+          "flushing",
+          "recurrent_fever",
+          "high_fever",
+          "mild_fever",
+          "weight_loss",
+          "sudden_weight_loss",
+          "weight_gain",
+          "poor_appetite",
+          "loss_of_appetite",
+          "increased_appetite",
+          "excessive_thirst",
+          "dry_mouth",
+          "cold_intolerance",
+          "heat_intolerance",
+          "cold_extremities",
+          "cold_hands_and_feets",
+          "sunken_eyes",
+          "drying_and_tingling_lips",
+          "fluid_overload",
+          "toxic_look_(typhos)",
+          "dark_circles",
+          "hair_loss",
+          "dry_skin",
+          "excessive_dryness",
+          "skin_darkening",
+          "stretch_marks"
         ],
-
+      
         "Digestive System": [
-          "abdominal pain",
-          "belly pain",
-          "stomach pain",
-          "stomach bleeding",
-          "distention of abdomen",
+          "abdominal_pain",
+          "belly_pain",
+          "stomach_pain",
+          "swelling_of_stomach",
+          "distention_of_abdomen",
+          "bloating",
+          "stomach_gurgling",
           "diarrhoea",
           "constipation",
-          "loss of appetite",
-          "increased appetite",
-          "excessive hunger",
+          "bloody_stool",
+          "tarry_stools",
+          "greasy_stools",
+          "rectal_bleeding",
+          "rectal_discharge",
+          "pain_in_anal_region",
+          "pain_during_bowel_movements",
+          "irritation_in_anus",
+          "rectal_pain",
+          "loss_of_bowel_control",
+          "urinary_incontinence",
           "indigestion",
           "acidity",
-          "passage of gases",
-          "bloody stool",
-          "pain during bowel movements",
-          "pain in anal region",
-          "irritation in anus",
-          "ulcers on tongue",
-          "patches in throat",
+          "hiccups",
+          "excessive_gas",
+          "passage_of_gases",
+          "bad_breath",
+          "difficulty_swallowing",
+          "early_satiety",
+          "nausea",
+          "vomiting",
+          "ulcers_on_tongue",
+          "patches_in_throat",
+          "sore_throat",
+          "hoarseness"
         ],
-
+      
         "Respiratory System": [
           "breathlessness",
+          "shortness_of_breath",
+          "wheezing",
+          "chest_tightness",
           "phlegm",
-          "mucoid sputum",
-          "rusty sputum",
-          "blood in sputum",
+          "mucoid_sputum",
+          "rusty_sputum",
+          "blood_in_sputum",
+          "cough",
           "congestion",
-          "sinus pressure",
-          "continuous sneezing",
-          "throat irritation",
-          "loss of smell",
+          "nasal_congestion",
+          "runny_nose",
+          "continuous_sneezing",
+          "throat_irritation",
+          "nasal_polyps",
+          "loss_of_taste",
+          "bluish_lips"
         ],
-
+      
         "Cardiovascular System": [
-          "chest pain",
-          "fast heart rate",
+          "chest_pain",
+          "fast_heart_rate",
+          "racing_heart",
           "palpitations",
-          "prominent veins on calf",
-          "swollen blood vessels",
-          "swollen extremeties",
-          "swollen legs",
+          "irregular_heartbeat",
+          "skipped_heartbeat",
+          "prominent_veins_on_calf",
+          "swollen_blood_vessels",
+          "spider_veins",
+          "swollen_extremeties",
+          "limb_swelling",
+          "swollen_ankles",
+          "swollen_legs"
         ],
-
+      
         "Neurological System": [
           "dizziness",
-          "loss of balance",
+          "loss_of_balance",
           "unsteadiness",
-          "slurred speech",
-          "weakness in limbs",
-          "weakness of one body side",
-          "coma",
-          "altered sensorium",
-          "spinning movements",
-          "stiff neck",
-          "pain behind the eyes",
-          "visual disturbances",
+          "slurred_speech",
+          "weakness_in_limbs",
+          "weakness_of_one_body_side",
+          "seizures",
+          "altered_sensorium",
+          "spinning_movements",
+          "stiff_neck",
+          "pain_behind_the_eyes",
+          "visual_disturbances",
+          "blurred_and_distorted_vision",
+          "double_vision",
+          "night_blindness",
+          "sensitivity_to_light",
+          "ringing_in_ears",
+          "ear_pain",
+          "tremors",
+          "numbness",
+          "tingling_sensation",
+          "brain_fog",
+          "disorientation",
+          "confusion",
+          "hallucinations",
+          "poor_concentration",
+          "lack_of_concentration",
+          "severe_headache",
+          "headache",
+          "eye_pain"
         ],
-
+      
         "Musculoskeletal System": [
-          "joint pain",
-          "knee pain",
-          "hip joint pain",
-          "back pain",
-          "neck pain",
-          "muscle pain",
-          "muscle weakness",
-          "muscle wasting",
-          "movement stiffness",
-          "swelling joints",
-          "painful walking",
+          "joint_pain",
+          "knee_pain",
+          "hip_joint_pain",
+          "back_pain",
+          "lower_back_pain",
+          "neck_pain",
+          "shoulder_pain",
+          "muscle_pain",
+          "muscle_weakness",
+          "muscle_wasting",
+          "muscle_spasms",
           "cramps",
+          "movement_stiffness",
+          "morning_stiffness",
+          "back_stiffness",
+          "joint_stiffness",
+          "reduced_joint_mobility",
+          "reduced_grip_strength",
+          "swelling_joints",
+          "painful_walking",
+          "bone_pain",
+          "bone_tenderness"
         ],
-
+      
         "Urinary System": [
-          "burning micturition",
-          "bladder discomfort",
-          "continuous feel of urine",
-          "spotting urination",
+          "burning_micturition",
+          "painful_urination",
+          "bladder_discomfort",
+          "continuous_feel_of_urine",
+          "spotting_urination",
           "polyuria",
-          "dark urine",
-          "yellow urine",
-          "foul smell of urine",
+          "frequent_urination",
+          "dark_urine",
+          "yellow_urine",
+          "cloudy_urine",
+          "blood_in_urine",
+          "foul_smell_ofurine"
         ],
-
+      
         "Skin & Dermatological": [
           "itching",
-          "internal itching",
-          "skin rash",
-          "skin peeling",
+          "internal_itching",
+          "skin_rash",
+          "hives",
+          "skin_peeling",
+          "peeling_skin",
           "blister",
+          "blistering",
           "blackheads",
-          "pus filled pimples",
-          "nodal skin eruptions",
-          "red spots over body",
-          "red sore around nose",
-          "silver like dusting",
-          "yellow crust ooze",
-          "dischromic patches",
-          "bruising",
+          "pus_filled_pimples",
+          "nodal_skin_eruptions",
+          "red_spots_over_body",
+          "red_sore_around_nose",
+          "silver_like_dusting",
+          "yellow_crust_ooze",
+          "dischromic_patches",
           "scurring",
+          "bruising",
+          "pale_skin",
+          "yellowish_skin",
+          "nail_discoloration",
+          "brittle_nails",
+          "small_dents_in_nails",
+          "inflammatory_nails"
         ],
-
+      
         "Eye Symptoms": [
-          "blurred and distorted vision",
-          "redness of eyes",
-          "watering from eyes",
-          "puffy face and eyes",
+          "redness_of_eyes",
+          "watering_from_eyes",
+          "eye_discharge",
+          "puffy_face_and_eyes",
+          "yellowing_of_eyes"
         ],
-
+      
         "Endocrine & Metabolic": [
-          "irregular sugar level",
-          "enlarged thyroid",
+          "irregular_sugar_level",
+          "enlarged_thyroid",
+          "goiter",
           "obesity",
-          "brittle nails",
-          "small dents in nails",
-          "inflammatory nails",
+          "excessive_hunger",
+          "slow_wound_healing"
         ],
-
+      
         "Mental & Psychological": [
           "anxiety",
           "depression",
-          "mood swings",
+          "mood_swings",
           "irritability",
           "restlessness",
-          "lack of concentration",
+          "agitation",
+          "panic_attacks",
+          "sleep_disturbances"
         ],
-
-        "Reproductive & Women's Health": ["abnormal menstruation"],
-
+      
+        "Reproductive & Women's Health": [
+          "pelvic_pain"
+        ],
+      
         "Liver & Jaundice Related": [
-          "acute liver failure",
-          "yellowing of eyes",
-          "yellowish skin",
+          "acute_liver_failure"
         ],
-
+      
         "Infection Risk Factors": [
-          "receiving blood transfusion",
-          "receiving unsterile injections",
-          "extra marital contacts",
-          "history of alcohol consumption",
-          "family history",
+          "receiving_blood_transfusion",
+          "receiving_unsterile_injections",
+          "extra_marital_contacts",
+          "history_of_alcohol_consumption",
+          "family_history",
+          "frequent_infections"
         ],
-
-        "Lymphatic System": ["swelled lymph nodes"],
+      
+        "Lymphatic & Hematologic": [
+          "swelled_lymph_nodes",
+          "enlarged_lymph_nodes",
+          "enlarged_spleen"
+        ]
       };
 
       // Display all symptoms in modal
@@ -1345,7 +1446,7 @@
         let html = "";
         symptoms.forEach((symptom) => {
           if (!selectedSymptoms.includes(symptom)) {
-            html += `<div class="search-item" onclick="addSymptom('${symptom}')">${symptom}</div>`;
+            html += `<div class="search-item" onclick="addSymptom('${symptom}')">${symptom.replace(/_/g, " ")}</div>`;
           }
         });
 
@@ -1386,7 +1487,7 @@
         selectedSymptoms.forEach((symptom) => {
           html += `
                     <div class="symptom-tag">
-                        ${symptom}
+                        ${symptom.replace(/_/g, " ")}
                         <button class="remove-btn" onclick="removeSymptom('${symptom}')">
                             <i class="fas fa-times"></i>
                         </button>
@@ -1457,7 +1558,7 @@
         // Update selected symptoms in results
         let symptomsHtml = "";
         data.selected_symptoms.forEach((symptom) => {
-          symptomsHtml += `<span class="badge bg-primary me-2 mb-2 p-2">${symptom}</span>`;
+          symptomsHtml += `<span class="badge bg-primary me-2 mb-2 p-2">${symptom.replace(/_/g, " ")}</span>`;
         });
         document.getElementById("resultsSymptoms").innerHTML = symptomsHtml;
 
